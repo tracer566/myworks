@@ -18,26 +18,7 @@ padding-top: 83px;
 padding-bottom: 80px;
 }
 
-/*.number{
-	display: inline-block;
-	position: absolute;
-	left:70rem;
-	top:1.5rem;
-
-}
-.link-1{
-text-decoration-line:none;
-color:black;
-border-radius: 10px;	
-}
-
-.link-1:hover{
-	background-color: blue;
-	color:white;
-}*/
-
 .header-text__title{
-	
 	font-size: 48px;
 	margin-bottom: 24px;
 	font-weight: 900;
@@ -53,7 +34,7 @@ border-radius: 10px;
 }
 
 .header-text__subtitle:hover{
-font-size: 60px;
+font-size: 50px;
 color:#8B0000;
 }
 
@@ -73,7 +54,6 @@ color:#8B0000;
 .header-text__title:hover,
 .header-text__prise:hover{
 	font-weight: bold;
-	margin-left: 3rem;
 	color:black;
 }
 
