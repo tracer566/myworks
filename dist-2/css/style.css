@@ -1,0 +1,208 @@
+/*1.Главный экран*/
+html{
+	font-size: 10px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main-overlay{
+z-index:1;
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.5);
+}
+.wrapper{
+	display:table-cell;
+	vertical-align:middle;
+}
+.main-header{
+	position: relative;
+	z-index:2;
+	font-weight:300;
+	text-transform: uppercase;
+}
+.main{
+	position: relative;
+	display:table;
+	text-align:center;
+	color:#fff;
+	height: 100vh;
+	width: 100%;
+	background: #000 url("../img/Слой 10.jpg") center center no-repeat;
+}
+.main-paragraph{
+	color: #ddd68b;
+	font-size: 1.8rem;
+    text-shadow: 2px 2px 0 black, -2px -2px 0 black
+    font-weight: 300;
+
+}
+
+.main h1{
+	margin: 0;
+	margin-bottom: 2rem;
+	font-size: 3.5rem;
+	text-shadow: 1px 1px 1 black, -1px -1px 1 black
+}
+
+.main-line{
+	width: 200px;
+	height: 1px;
+	background-color: #fff;
+    margin: 0px auto;
+}
+.main-down{
+	position: absolute;
+	display: inline-block;
+	margin-bottom:0;
+	font-size: 2rem;
+	font-weight: -50px;
+	left:50%;
+	margin-top:12%;
+	margin-left: -25px;
+	height: 50px;
+	width: 50px;
+	color:#fff;
+	z-index: 4;
+	border-radius: 50%;
+	line-height: 50px;
+	border: 1px solid transparent;
+	transition: 0.8s;
+}
+.main-down:hover {
+	color: #fff;
+	border-color:#fff;
+}
+
+/*2.Секция с портфолио*/
+.portfolio{
+	padding: 10rem -0px;
+	text-align: center;
+}
+
+.section-header{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 2.6rem;
+	margin-bottom: 5rem;
+}
+
+.portfolio img{
+width: 100%;
+max-width: 360px;
+box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.71);
+}
+
+.portfolio a{
+	display: inline-block;
+	margin-top: 1.5rem;
+	font-size: 1.4rem;
+	color: #333;
+	border-bottom: 1px solid transparent;
+	text-decoration: none;
+}
+
+.portfolio a:hover{
+	text-decoration: none;
+	border-bottom: 0.5px dashed #333;
+}
+/*3.Подвал*/
+
+.footer{
+	text-align: center;
+	background-color: #100505;
+	color:#fff;
+	padding: 3rem 0;
+
+}
+
+.footer strong{
+	font-weight: 300;
+	font-size: 2.4rem;
+}
+
+.social-links{
+	margin-top: 2rem;
+}
+.social-links a{
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	display: inline-block;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius: 50%;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	font-size: 2rem;
+	transition: 0.5s;
+
+}
+.footer-paragraph{
+font-size: 1.4rem;
+text-decoration-line:underline;
+color: #ddd68b;
+}
+
+.social-links a:hover{
+	background-color: #fff;
+	color:#646464;
+}
+.offer-btn{
+	display: block;
+	width: 80%;
+	max-width:300px;
+	margin: 1.3rem auto;
+	border: 1px solid #ddd68b;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: #ddd68b;
+	border-radius: 100px;
+	font-size: 1.4rem;
+	transition: 0.5s;
+	text-decoration: none;
+}
+.offer-btn:hover{
+
+	background-color: #fff;
+	color: #646466;
+}
+
+@media (min-width:300px) and (max-width: 680px)
+{
+	html{
+		font-size: 7px;
+		}
+.portfolio img{
+	margin-bottom: 3rem;
+	text-align: center;
+}
+.portfolio a{
+	vertical-align: middle;
+	margin:auto;
+	margin-bottom: 5rem;
+	font-size: 2rem;
+	display:block;
+}
+
+.footer strong{
+	display: inline-block;
+	margin-bottom: 1.7rem;
+	margin-top: 1.7rem;
+	font-size: 2.5rem;
+}
+.footer a{
+max-width: 150px;
+max-width: 200px;
+font-size: 1.5rem;
+}
+.footer p{
+	font-size: 1.7rem;
+}
+}
