@@ -1,0 +1,135 @@
+@media (max-width: 1194px){
+	html{
+		font-size: 12px;
+	}
+	.logo>img{
+		max-width: 30px;
+		max-height: 30px;
+	}
+
+	.footer-logo>img{
+		max-width: 30px;
+		max-height: 30px;
+	}
+
+	.price-tag h3{
+	font-size: 3rem;
+	margin: 1rem;
+}
+	.price-tag{
+		height: 450px;
+	}
+
+	.price-btn{
+		width: 150px;
+		height: 40px;
+	}
+}
+
+@media(max-width: 922px){
+	html{
+		font-size: 10px;
+	}
+
+	.visible-md{
+		display:none;
+	}
+	
+	.m-menu-link{
+	display: block;
+	color:#fff;
+	font-size: 2.5rem;
+	position: absolute;
+	z-index: 99;
+	top: 2rem;
+	right: 3rem;
+}
+	.plan{
+		height: auto;
+	}
+	.price__tags{
+	flex-direction: column;
+	align-items: center;
+
+	}
+	
+	.price-tag{
+		margin-bottom: 3rem;
+		width: 80%;
+
+	}
+
+		#cart1{
+		margin-right: 0;
+}
+		#cart3{
+		margin-left: 0;
+	}
+
+	.price-tag img{
+	max-width:9rem; 
+	max-height:9rem;
+	margin-bottom: 0.9rem; 
+}
+.price-tag h3{
+	font-size: 5rem;
+	margin-top: -1rem;
+}
+.prise-tag > h3 > sub,sup{
+	font-size: 2rem;
+	vertical-align: 1rem;
+}
+.prise-tag > h3 > sup,sub{
+	font-size: 2rem;
+}
+
+	.price-btn,.button{
+	width: 24rem;
+  	height: 4.5rem;
+  	font-size: 1.3rem;
+	}
+.footer-nav{
+	display: none;
+}
+
+.footer-wrap{
+	justify-content: center;
+}
+
+.legal{
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.social-links a{
+	display: inline-block;
+	margin-right: 2rem;
+	font-size: 2rem;
+
+}
+
+.copy>p{
+	display: block;
+	font-size: 1.4rem;
+}
+
+.footer-logo{
+	text-align: center;
+}
+.footer-logo img{
+	min-height: 6rem;
+	min-width: 6rem;
+	margin-bottom: 1rem;
+}
+.footer-logo span{
+	display: block;
+	text-align: center;
+}
+}
+	
+
