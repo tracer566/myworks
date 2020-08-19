@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@media (max-width: 1100px) {
+  html {
+    font-size: 10px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    margin: 0;
+    padding-top: 2rem;
+    background-color: #F0FFF0;
+  }
+  .header span {
+    font-size: 1.1rem;
+  }
+  .menu {
+    top: 6rem;
+  }
+  .header-section {
+    background-position-x: -6.5rem;
+  }
+  .section-2 {
+    min-height: 480px;
+  }
+  .section-2 img {
+    width: 22rem;
+  }
+  .section-2__product > .section-2__img-2 {
+    margin-bottom: 1.5rem;
+    height: 11rem;
+  }
+  .section-3 {
+    min-height: 300px;
+  }
+  .section-4 {
+    min-height: 400px;
+  }
+  .section-4 img {
+    min-height: 150px;
+    min-width: 170px;
+  }
+  .section-4 .product {
+    min-height: 28rem;
+  }
+  .section-5 {
+    min-height: 350px;
+  }
+  /*map*/
+  .contacts-block {
+    top: 13rem;
+    right: 2rem;
+  }
+  footer.footer {
+    min-height: 150px;
+  }
+  .wrapper .logo {
+    width: 24vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    height: 13vh;
+    margin: 0;
+    padding-top: 2rem;
+  }
+  .logo {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    align-items: center;
+  }
+  /*мобильное меню*/
+  .visible-md {
+    display: none;
+  }
+  .phone__btn {
+    display: none;
+  }
+  .phone {
+    width: 30rem;
+  }
+  .logo__img {
+    width: 29rem;
+    justify-content: center;
+    text-align: center;
+    border-right-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.2);
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.2);
+    border-left-style: solid;
+  }
+  .m-menu-link {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+    font-size: 2.5rem;
+  }
+  .m-menu {
+    margin: 0;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 60vh;
+    width: 35vw;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 5rem;
+    list-style: none;
+    background-color: #FFCC01;
+    padding: 4rem 0rem;
+    z-index: 999;
+    transition: 0.3s;
+    transform: translateX(100%);
+  }
+  .m-menu a {
+    text-decoration: none;
+    color: #000;
+  }
+  .m-menu a:hover {
+    border-bottom-width: 1.5px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    cursor: pointer;
+  }
+  .m-menu a:visited {
+    color: #fff;
+  }
+  .m-menu__active {
+    transform: translateX(0%);
+  }
+  .close-menu {
+    position: fixed;
+    top: 0;
+    right: 1rem;
+    font-size: 4rem;
+    opacity: 0.7;
+    margin: 0;
+    color: #000;
+  }
+  .close-menu:hover {
+    cursor: pointer;
+  }
+  .section-2 {
+    min-height: 1200px;
+  }
+  .section-2__allproducts {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-2__product {
+    width: 60%;
+    margin-bottom: 3rem;
+  }
+  .section-3 {
+    min-height: 650px;
+  }
+  .section-3__allfeatures {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-3__features {
+    margin-bottom: 2rem;
+    width: 60%;
+  }
+  .section-4 {
+    min-height: 740px;
+  }
+  .popular-product {
+    flex-wrap: wrap;
+  }
+  .product {
+    flex-basis: 40%;
+    margin-bottom: 20px;
+  }
+  .product img {
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+  .section-5 {
+    min-height: 840px;
+  }
+  .section-5 .technics {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-5 .technics__cart {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 620px) {
+  header.header {
+    height: 18vh;
+  }
+  .contacts-block {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-2 {
+    min-height: 1270px;
+  }
+  .section-4 {
+    min-height: 1490px;
+  }
+  .section-4 .product {
+    width: 50%;
+    padding: 2.5rem 4rem;
+  }
+  .section-4 .product img {
+    width: 100%;
+  }
+  .contacts {
+    min-height: 400px;
+    height: 60vh;
+  }
+  .header {
+    height: 10vh;
+  }
+  .header-section {
+    height: 70vh;
+  }
+}
