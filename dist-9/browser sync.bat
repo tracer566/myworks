@@ -1,0 +1,1 @@
+browser-sync start -s -f "*.html,assets/css/*.css,assets/js/*.js,assets/*.php"
