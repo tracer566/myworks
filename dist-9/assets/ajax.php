@@ -16,8 +16,8 @@ if(isset($_POST) && !empty($_POST)){
 	}
 	
 	if($sendMessage != ''){
-		$fromEmail = 'support@animalpark.com';
-		$toEmail = 'support@templatebundle.net';
+		$fromEmail = 'support@animalpark.ru';
+		$toEmail = 'support@templatebundle.ru';
 		
 		$headers = "MIME-Version: 1.0" . "\r\n";
 		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";

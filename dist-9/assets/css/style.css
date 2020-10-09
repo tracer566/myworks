@@ -601,11 +601,11 @@ button:focus {
 }
 /*-------- pricing section start --------*/
 .zoo_ticket_wrapper{
-	background:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:-moz-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:-ms-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:-o-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
+	background:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/img-2.jpg);
+	background:-moz-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/img-2.jpg);
+	background:-ms-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/img-2.jpg);
+	background:-o-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/img-2.jpg);
+	background:linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/img-2.jpg);
 	background-size:cover;
 	position: relative;
 	background-attachment: fixed;
@@ -708,11 +708,11 @@ button:focus {
 }
 /*-------- video section start --------*/
 .zoo_video_wrapper{
-	background:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:-moz-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:-ms-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:-o-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
+	background:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com);
+	background:-moz-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com);
+	background:-ms-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com);
+	background:-o-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com);
+	background:linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com);
 	background-attachment:fixed;
 	background-size: cover;
 	position:relative;
@@ -909,11 +909,11 @@ button:focus {
 }
 /*-------- camp section start --------*/
 .zoo_camp_wrapper{
-	background:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:-moz-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:-ms-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:-o-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
-	background:linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com/1920x1080);
+	background:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com);
+	background:-moz-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com);
+	background:-ms-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com);
+	background:-o-linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com);
+	background:linear-gradient(-90deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://via.placeholder.com);
 	background-size: cover;
 	background-attachment: fixed;
 	position:relative;
@@ -1131,11 +1131,11 @@ button:focus {
 }
 /*-------- footer section start --------*/
 .zoo_footer_wrapper{
-	background:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://via.placeholder.com/1920x1080);
-	background:-moz-linear-gradient(-90deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://via.placeholder.com/1920x1080);
-	background:-ms-linear-gradient(-90deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://via.placeholder.com/1920x1080);
-	background:-o-linear-gradient(-90deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://via.placeholder.com/1920x1080);
-	background:linear-gradient(-90deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://via.placeholder.com/1920x1080);
+	background:-webkit-linear-gradient(-90deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://via.placeholder.com);
+	background:-moz-linear-gradient(-90deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://via.placeholder.com);
+	background:-ms-linear-gradient(-90deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://via.placeholder.com);
+	background:-o-linear-gradient(-90deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://via.placeholder.com);
+	background:linear-gradient(-90deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(http://via.placeholder.com);
     background-size: cover;
     padding-top: 150px;
     z-index: -1;
