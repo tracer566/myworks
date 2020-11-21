@@ -2,16 +2,11 @@ body {
   margin: 0;
 }
 
-h1,
-h2 {
+h1, h2 {
   margin-top: 0;
 }
 
-input:focus,
-button:focus,
-textarea:focus,
-.slick-slide:focus,
-.slider-block__button:focus {
+input:focus, button:focus, textarea:focus, .slick-slide:focus, .slider-block__button:focus {
   outline: none;
 }
 
@@ -187,7 +182,7 @@ button {
 }
 
 .slider-block__button:hover .slider-block__button_img {
-  background: url("../img/shopping-cart-hover.png") 0 0 no-repeat;
+  background: url(../img/shopping-cart-hover.png) 0 0 no-repeat;
   -webkit-transition: background 1.5s;
   transition: background 1.5s;
   -webkit-transition: color 1.5s;
@@ -200,7 +195,7 @@ button {
   display: inline-block;
   vertical-align: middle;
   margin-right: 19px;
-  background: url("../img/shopping-cart.png") 0 0 no-repeat;
+  background: url(../img/shopping-cart.png) 0 0 no-repeat;
   background-size: cover;
   width: 17px;
   height: 16px;
@@ -220,7 +215,7 @@ button {
 .slider-left {
   position: absolute;
   z-index: 3;
-  background: transparent url("../img/slider-arrow-left.png") 0 0 no-repeat;
+  background: transparent url(../img/slider-arrow-left.png) 0 0 no-repeat;
   width: 18px;
   height: 30px;
   left: 0;
@@ -233,13 +228,13 @@ button {
 
 .slider-left:hover {
   cursor: pointer;
-  background: transparent url("../img/slider-arrow-left-hover.png") 0 0 no-repeat;
+  background: transparent url(../img/slider-arrow-left-hover.png) 0 0 no-repeat;
 }
 
 .slider-right {
   position: absolute;
   z-index: 3;
-  background: transparent url("../img/slider-arrow-right.png") 0 0 no-repeat;
+  background: transparent url(../img/slider-arrow-right.png) 0 0 no-repeat;
   width: 18px;
   height: 30px;
   right: 0;
@@ -252,11 +247,11 @@ button {
 
 .slider-right:hover {
   cursor: pointer;
-  background: transparent url("../img/slider-arrow-right-hover.png") 0 0 no-repeat;
+  background: transparent url(../img/slider-arrow-right-hover.png) 0 0 no-repeat;
 }
 
 .header-bg {
-  background: #000 url("../img/main/bg-main.png") center no-repeat;
+  background: #000000 url(../img/main/bg-main.png) center no-repeat;
   background-size: cover;
 }
 
@@ -716,7 +711,7 @@ button {
 }
 
 .manual-bg {
-  background: #000 url("../img/manual/manual-bg.png") center no-repeat;
+  background: #000 url(../img/manual/manual-bg.png) center no-repeat;
   background-size: cover;
 }
 
@@ -910,7 +905,7 @@ button {
 }
 
 .footer-bg {
-  background-color: #191919;
+  background-color: #000000;
   background-size: cover;
 }
 
@@ -1006,7 +1001,6 @@ button {
     -webkit-transform: translate(278%, -132px);
     transform: translate(278%, -132px);
   }
-
   .tools-img {
     -webkit-transform: translate(10%, -100px);
     transform: translate(10%, -100px);
@@ -1019,7 +1013,6 @@ button {
     transform: translate(278%, -112px);
     height: 350px;
   }
-
   .tools-img {
     -webkit-transform: translate(10%, -80px);
     transform: translate(10%, -80px);
@@ -1032,116 +1025,92 @@ button {
     margin-bottom: 60px;
     font-size: 29px;
   }
-
   .main .advantages-subtitle {
     margin-bottom: 60px;
     font-size: 19px;
   }
-
   .main .advantages-block {
     margin-bottom: 70px;
     height: 34px;
   }
-
   .main .advantages-block:last-child {
     margin-bottom: 0;
   }
-
   .main .advantages-block__img {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin-right: 15px;
   }
-
   .main .advantages-block__text {
     font-size: 14px;
   }
-
   .form-main {
     padding: 30px 39px;
   }
-
   .form-title {
     margin-bottom: 15px;
   }
-
   .form-button {
     margin-bottom: 15px;
     padding: 20px 38px;
   }
-
   .section-title h2 {
     margin-top: 0;
     margin-bottom: 85px;
   }
-
   .section-slider {
     padding: 82px 0;
   }
-
   .materials-img {
     -webkit-transform: translate(272%, -112px);
     transform: translate(272%, -112px);
     height: 300px;
   }
-
   .tools-img {
     -webkit-transform: translate(3%, -80px);
     transform: translate(3%, -80px);
     height: 250px;
   }
-
   .prototyping-img {
     -webkit-transform: translate(-3%, -82px);
     transform: translate(-3%, -82px);
     height: 250px;
   }
-
   .slider-left {
     -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
   }
-
   .slider-right {
     -webkit-transform: translateX(20px);
     transform: translateX(20px);
   }
-
   .form-main_order {
     padding: 0;
   }
-
   .form-order-input {
     margin-bottom: 10px;
   }
-
   .form-order-button {
     margin-bottom: 0;
     width: 290px;
     padding: 17px 10px;
   }
-
   .manual-arrow {
     width: 110px;
   }
-
   .delivery-block {
     margin-bottom: 50px;
   }
-
   .delivery-block__img {
     margin-bottom: 20px;
   }
-
   .delivery-block_last1 {
     margin-bottom: 0;
   }
-
   .delivery-block_last2 {
     margin-bottom: 0;
   }
-
   .politic-popup {
     top: 50px;
     left: 2%;
@@ -1155,7 +1124,6 @@ button {
   button {
     cursor: default;
   }
-
   .nav-menu {
     position: fixed;
     top: 0;
@@ -1163,17 +1131,15 @@ button {
     height: 100%;
     width: 100%;
     z-index: 1;
-    background: #000 url("../img/main/bg-main.png") center no-repeat;
+    background: #000 url(../img/main/bg-main.png) center no-repeat;
     background-size: cover;
     left: -100%;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
-
   .nav-menu_active {
     left: 0;
   }
-
   .menu {
     position: absolute;
     padding: 20px;
@@ -1195,18 +1161,15 @@ button {
     -ms-flex-pack: center;
     justify-content: center;
   }
-
   .menu-link {
     display: block;
   }
-
   .menu-title {
     text-align: center;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     cursor: default;
   }
-
   .menu-title a {
     display: block;
     padding: 15px 0;
@@ -1215,201 +1178,157 @@ button {
     font-size: 20px;
     cursor: default;
   }
-
   .menu-title a:hover {
     color: #fff;
   }
-
   .menu-title:last-child {
     border: none;
   }
-
   .header {
     margin-bottom: 40px;
   }
-
   .header-logo {
     cursor: default;
   }
-
   .header-adress {
     width: 100%;
     margin-left: 20px;
     margin-bottom: 5px;
   }
-
   .header-adress_email {
     margin-left: 9px;
     margin-bottom: 0;
   }
-
   .header-adress_email a:hover {
     color: #fff;
   }
-
   .header-contacts__phone a:hover {
     color: #fff;
   }
-
   .header-contacts__order {
     cursor: default;
   }
-
   .header-contacts__order:hover {
     color: #00d1f9;
     cursor: default;
   }
-
   .main {
     padding-bottom: 70px;
   }
-
   .main .advantages-title h1 {
     margin-bottom: 30px;
     text-align: center;
     font-size: 33px;
   }
-
   .main .advantages-subtitle {
     margin-bottom: 40px;
     font-size: 20px;
     text-align: center;
   }
-
   .main .advantages-block {
     margin-left: 13px;
     margin-bottom: 40px;
     height: 36px;
   }
-
   .main .advantages-block:last-child {
     margin-bottom: 40px;
   }
-
   .main .advantages-block__img {
     margin-right: 25px;
   }
-
   .form-main {
     padding: 39px 54px;
   }
-
   .form-title {
     margin-bottom: 30px;
     font-size: 21px;
   }
-
   .form-input {
     font-size: 15px;
   }
-
   .form-button {
     margin-bottom: 20px;
     padding: 23px 38px;
   }
-
   .form-button:hover {
     background-color: #23bac1;
     color: #fff;
   }
-
   .form-small .show-politic {
     cursor: default;
     color: #23bac1;
   }
-
   .form-small .show-politic:hover {
     color: #23bac1;
   }
-
   .popup {
     top: 50px;
   }
-
   .popup_close {
     cursor: default;
   }
-
   .popup_close:hover {
     color: #7c7c7c;
   }
-
   .popup_close-politic {
     cursor: default;
   }
-
   .popup_close-politic:hover {
     color: #7c7c7c;
   }
-
   .section-title h2 {
     margin-bottom: 60px;
     font-size: 31px;
   }
-
   .section-title h2::after {
     display: none;
   }
-
   .section-slider {
     padding: 60px 0;
   }
-
   .lego-img {
     display: none;
   }
-
   .slider-block__button {
     cursor: default;
   }
-
   .slider-block__button:hover {
     background-color: transparent;
     color: #23bac1;
   }
-
   .slider-block__button:hover .slider-block__button_img {
-    background: url("../img/shopping-cart.png") 0 0 no-repeat;
+    background: url(../img/shopping-cart.png) 0 0 no-repeat;
   }
-
   .slider-left {
     -webkit-transform: translateX(-30px);
     transform: translateX(-30px);
   }
-
   .slider-left:hover {
-    background: transparent url("../img/slider-arrow-left.png") 0 0 no-repeat;
+    background: transparent url(../img/slider-arrow-left.png) 0 0 no-repeat;
     cursor: default;
   }
-
   .slider-right {
     -webkit-transform: translateX(30px);
     transform: translateX(30px);
   }
-
   .slider-right:hover {
-    background: transparent url("../img/slider-arrow-right.png") 0 0 no-repeat;
+    background: transparent url(../img/slider-arrow-right.png) 0 0 no-repeat;
     cursor: default;
   }
-
   .form-main_order {
     padding: 0;
   }
-
   .form-order-button {
     margin-bottom: 0;
     width: 290px;
     padding: 18px 10px;
   }
-
   .manual-arrow {
     display: none;
   }
-
   .manual-section-title h2 {
     margin-bottom: 60px;
   }
-
   .manual-block {
     margin-bottom: 60px;
     display: -moz-flex;
@@ -1425,77 +1344,59 @@ button {
     -ms-flex-align: center;
     align-items: center;
   }
-
   .manual-block_last {
     margin-bottom: 0;
   }
-
   .manual-block__img {
     margin: 0;
     margin-right: 30px;
   }
-
   .manual-block__text {
     text-align: left;
     margin: 0;
   }
-
   .manual-block__text_order {
     cursor: default;
   }
-
   .manual-block__text_order:hover {
     color: #23bac1;
   }
-
   .contacts {
     font-size: 14px;
   }
-
   .contacts-block__text a:hover {
     color: #000;
   }
-
   .feedback {
     padding: 50px 0;
   }
-
   .feedback-text {
     font-size: 20px;
   }
-
   .feedback-text__click {
     cursor: default;
   }
-
   .feedback-text__click:hover {
     color: #00d1f9;
   }
-
   .map {
     padding: 0px 15px;
   }
-
   .footer-logo {
     cursor: default;
   }
-
   .footer-adress_email {
     margin-left: 3px;
   }
-
   .footer-adress_email a:hover {
     color: #fff;
   }
-
   .footer-contacts__phone a:hover {
     color: #fff;
   }
-
   .footer-contacts__order {
     cursor: default;
   }
-
   .footer-contacts__order:hover {
     color: #00d1f9;
   }
@@ -1505,56 +1406,44 @@ button {
   .header {
     margin-bottom: 30px;
   }
-
   .header-adress {
     margin-left: 5px;
   }
-
   .header-adress_email {
     margin-left: -5px;
   }
-
   .header-adress__icon {
     margin-right: 8px;
     width: 13px;
   }
-
   .header-adress__text {
     font-size: 12px;
   }
-
   .header-contacts__phone {
     margin-bottom: 18px;
   }
-
   .header-contacts__phone a {
     font-size: 17px;
   }
-
   .header-contacts__order {
     font-size: 11px;
   }
-
   .main {
     padding-bottom: 60px;
   }
-
   .main .advantages-title h1 {
     color: #00d1f9;
     font-size: 28px;
   }
-
   .main .advantages-subtitle {
     font-size: 19px;
   }
-
   .main .advantages-block {
     margin-bottom: 20px;
     padding-bottom: 20px;
     height: 51px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   }
-
   .main .advantages-block__img {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1562,103 +1451,80 @@ button {
     margin-left: 25px;
     margin-right: 45px;
   }
-
   .main .advantages-block__text {
     font-size: 16px;
   }
-
   .main .advantages-block:last-child {
     margin-bottom: 20px;
   }
-
   .main .advantages-block_last {
     border: none;
   }
-
   .form-main {
     padding: 25px 45px;
   }
-
   .form-title {
     margin-bottom: 20px;
     font-size: 19px;
   }
-
   .form-input {
     font-size: 14px;
   }
-
   .form-textarea {
     margin-bottom: 15px;
   }
-
   .form-button {
     margin-bottom: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
   .form-small {
     font-size: 10px;
   }
-
   .section-title h2 {
     margin-bottom: 40px;
     font-size: 30px;
   }
-
   .slider-left {
     -webkit-transform: translateX(1px);
     transform: translateX(1px);
   }
-
   .slider-right {
     -webkit-transform: translateX(-1px);
     transform: translateX(-1px);
   }
-
   .form-main_order {
     padding: 0;
   }
-
   .form-order-button {
     margin-bottom: 0;
     width: 201px;
   }
-
   .delivery-block_last1 {
     margin-bottom: 50px;
   }
-
   .contacts-block {
     margin-bottom: 50px;
   }
-
   .contacts-block_last {
     margin-bottom: 0;
   }
-
   .feedback {
     padding: 40px 0;
   }
-
   .feedback-text {
     font-size: 19px;
   }
-
   .footer-adress {
     margin-left: 0;
   }
-
   .footer-adress__icon {
     margin-right: 8px;
     width: 13px;
   }
-
   .footer-adress__text {
     font-size: 12px;
   }
-
   .message-popup {
     top: 100px;
     left: 2%;
@@ -1667,11 +1533,9 @@ button {
     width: 96%;
     padding: 30px 0px 20px 0px;
   }
-
   .message-popup_close-message {
     cursor: default;
   }
-
   .message-popup_close-message:hover {
     color: #7c7c7c;
   }
@@ -1681,34 +1545,27 @@ button {
   .header-logo {
     margin-left: 33px;
   }
-
   .header-adress {
     display: none;
   }
-
   .header-contacts__phone a {
     font-size: 21px;
   }
-
   .header-contacts__order {
     font-size: 14px;
   }
-
   .main {
     padding-bottom: 40px;
   }
-
   .main .advantages-title h1 {
     margin-bottom: 15px;
     font-size: 22px;
   }
-
   .main .advantages-subtitle {
     margin-bottom: 40px;
     text-align: center;
     font-size: 17px;
   }
-
   .main .advantages-block__img {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1716,89 +1573,69 @@ button {
     margin-left: 15px;
     margin-right: 25px;
   }
-
   .main .advantages-block__text {
     font-size: 16px;
   }
-
   .form-main {
     padding: 39px 40px;
   }
-
   .popup {
     left: 2%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
     width: 96%;
   }
-
   .popup .form-main {
     padding: 30px 15px;
   }
-
   .section-title h2 {
     font-family: 'ProximaNova-Bold';
     font-size: 25px;
   }
-
   .section-slider {
     padding: 40px 0;
   }
-
   .slider {
     text-align: center;
   }
-
   .slider-block__name {
     margin-bottom: 5px;
   }
-
   .slider-block__price {
     margin-bottom: 15px;
   }
-
   .slider-block__button {
     padding: 16px 50px;
   }
-
   .form-main_order {
     padding: 0;
   }
-
   .manual-block__img img {
     max-width: 75px;
     max-height: 75px;
   }
-
   .manual-block__text {
     font-size: 14px;
   }
-
   .manual-block__text a {
     margin-top: 10px;
     font-size: 13px;
   }
-
   .delivery {
     font-size: 14px;
   }
-
   .feedback {
     padding: 40px 0;
   }
-
   .feedback-text {
     font-size: 17px;
   }
-
   .footer-adress {
     display: none;
   }
-
   .footer-contacts__phone a {
     font-size: 21px;
   }
-
   .footer-contacts__order {
     font-size: 14px;
   }
@@ -1808,93 +1645,73 @@ button {
   .header {
     margin-bottom: 22px;
   }
-
   .header-contacts__phone a {
     font-size: 14px;
   }
-
   .header-contacts__order {
     font-size: 12px;
   }
-
   .main .advantages-title h1 {
     margin-bottom: 10px;
     font-size: 20px;
   }
-
   .main .advantages-subtitle {
     margin-bottom: 20px;
     font-size: 15px;
   }
-
   .main .advantages-block {
     margin-bottom: 10px;
     padding-bottom: 10px;
     height: 41px;
   }
-
   .main .advantages-block__img {
     margin-left: 5px;
     margin-right: 15px;
   }
-
   .main .advantages-block__text {
     font-size: 13px;
   }
-
   .main .advantages-block:last-child {
     margin-bottom: 10px;
   }
-
   .form-main {
     padding: 20px 9px;
   }
-
   .form-title {
     margin-bottom: 15px;
     font-size: 16px;
   }
-
   .form-input {
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 13px;
   }
-
   .form-textarea {
     margin-bottom: 5px;
   }
-
   .form-button {
     margin-bottom: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
   }
-
   .section-title h2 {
     font-size: 19px;
   }
-
   .form-main_order {
     padding: 0 9px;
   }
-
   .feedback-text {
     font-size: 15px;
   }
-
   .footer-contacts__phone a {
     font-size: 14px;
   }
-
   .footer-contacts__order {
     font-size: 12px;
   }
-
   .politic-popup {
     font-size: 14px;
   }
-
   .politic-popup__text {
     padding: 20px;
   }
@@ -1905,17 +1722,14 @@ button {
     margin-left: 13px;
     padding-left: 0;
   }
-
   .section-title h2 {
     font-size: 18px;
   }
-
   .slider-left {
     top: 62%;
     -webkit-transform: translateX(-12px);
     transform: translateX(-12px);
   }
-
   .slider-right {
     top: 62%;
     -webkit-transform: translateX(12px);
@@ -1925,24 +1739,24 @@ button {
 
 @font-face {
   font-family: 'MyriadPro-Regular';
-  src: url("../fonts/MyriadPro-Regular.otf");
+  src: url(../fonts/MyriadPro-Regular.otf);
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ProximaNova-Bold';
-  src: url("../fonts/ProximaNova-Bold.ttf");
+  src: url(../fonts/ProximaNova-Bold.ttf);
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ProximaNova-Light';
-  src: url("../fonts/ProximaNova-Light.ttf");
+  src: url(../fonts/ProximaNova-Light.ttf);
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ProximaNova-Regular';
-  src: url("../fonts/ProximaNova-Regular.ttf");
+  src: url(../fonts/ProximaNova-Regular.ttf);
   font-style: normal;
 }
